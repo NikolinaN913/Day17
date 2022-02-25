@@ -1,10 +1,12 @@
 package main;
 
+import domain.Teacher;
+
 public class Task01 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Teacher t = new Teacher("Nada");
+		System.out.println(t);
 	}
 
 }
